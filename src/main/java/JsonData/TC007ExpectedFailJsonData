@@ -1,0 +1,4 @@
+{
+  "FaultId": "User already exists",
+  "fault": "FAULT_USER_ALREADY_EXISTS"
+}

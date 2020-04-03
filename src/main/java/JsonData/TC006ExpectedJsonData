@@ -1,0 +1,8 @@
+{
+  "City": "Hyderabad",
+  "Temperature": "33.96 Degree celsius",
+  "Humidity": "30 Percent",
+  "WeatherDescription": "few clouds",
+  "WindSpeed": "2.1 Km per hour",
+  "WindDirectionDegree": "160 Degree"
+}

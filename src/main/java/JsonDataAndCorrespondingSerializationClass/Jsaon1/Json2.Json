@@ -1,0 +1,25 @@
+{
+  "branding": {
+    "desc": "Sample Application description",
+    "href": "https://marketplace.appdirect.com/api/marketplace/v1/products/1111",
+    "iconUrl": "https://appdirect.cloudfront.net/app_resources/1111/thumbs_64/img1111.png",
+    "name": "Sample Application",
+    "storefrontUrl": "https://marketplace.appdirect.com/apps/1111",
+    "vendor": "AppDirect"
+  },
+  "editions": [
+    {
+      "freeTrialTerms": {
+        "freeTrialDuration": 1,
+        "freeTrialDurationPeriod": "MONTH",
+        "freeTrialGracePeriod": 10
+      },
+      "id": "45b79e06-1ac6-11e5-90d8-ca7e16f380a7",
+      "name": "Sample Edition",
+      "revenueModel": "RECURRING"
+    }
+  ],
+  "id": "098357e5-7a88-45fe-82d3-843bfd6bcbd1",
+  "stacked": false,
+  "type": "PRODUCT"
+}

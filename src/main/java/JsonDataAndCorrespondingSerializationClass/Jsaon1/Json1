@@ -1,0 +1,23 @@
+{
+  "bundleIds": [
+    "300",
+    "400"
+  ],
+  "buyerCompanyId": "6e5a0af2-e6be-4a86-a1b0-ffabcc2c6324",
+  "buyerUserId": "55144410-a14a-43a1-9e0a-062c6cf31770",
+  "currency": "USD",
+  "ownerCompanyId": "b0410709-8333-43e2-84d6-3228f6b9998b",
+  "ownerUserId": "19d7343b-b8ab-464a-a893-8b107d77137d",
+  "pricingPlanIds": [
+    "a12bcf2e-d27e-4808-aae0-6099cc828664",
+    "3e0a22d3-dafb-4b3d-a487-7f4e7a94b32a"
+  ],
+  "productIds": [
+    "100",
+    "200"
+  ],
+  "subscriptionIds": [
+    "915a6558-5a1b-446a-8ec6-334cc60e3d37",
+    "8569269e-4c7f-4238-807c-513c718be135"
+  ]
+}
