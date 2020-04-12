@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class TC001_GET_REQUEST {
 
-    @Test
+    @Test()
     void getweatherDetails(){
         //Specify Base URI
         RestAssured.baseURI="http://restapi.demoqa.com/utilities/weather/city";

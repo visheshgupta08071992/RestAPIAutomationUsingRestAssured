@@ -1,0 +1,164 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 34, Failures: 16, Errors: 0, Skipped: 0, Time elapsed: 27.358 sec <<< FAILURE! - in TestSuite
+checkContentType(com.RestAssured.Testcases.TC002_Get_Single_Employee_Record)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [application/json;charset=utf-8]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC002_Get_Single_Employee_Record.checkContentType(TC002_Get_Single_Employee_Record.java:59)
+
+checkResposeBody(com.RestAssured.Testcases.TC002_Get_Single_Employee_Record)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at com.RestAssured.Testcases.TC002_Get_Single_Employee_Record.checkResposeBody(TC002_Get_Single_Employee_Record.java:29)
+
+checkStatusCode(com.RestAssured.Testcases.TC002_Get_Single_Employee_Record)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at com.RestAssured.Testcases.TC002_Get_Single_Employee_Record.checkStatusCode(TC002_Get_Single_Employee_Record.java:36)
+
+checkserverType(com.RestAssured.Testcases.TC002_Get_Single_Employee_Record)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx/1.16.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC002_Get_Single_Employee_Record.checkserverType(TC002_Get_Single_Employee_Record.java:66)
+
+checkstatusLine(com.RestAssured.Testcases.TC002_Get_Single_Employee_Record)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 400 Bad Request]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC002_Get_Single_Employee_Record.checkstatusLine(TC002_Get_Single_Employee_Record.java:51)
+
+checkContentType(com.RestAssured.Testcases.TC003_Post_Employee_Record)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [application/json;charset=utf-8]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC003_Post_Employee_Record.checkContentType(TC003_Post_Employee_Record.java:76)
+
+checkcontentEncoding(com.RestAssured.Testcases.TC003_Post_Employee_Record)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [gzip] but found [null]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:130)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC003_Post_Employee_Record.checkcontentEncoding(TC003_Post_Employee_Record.java:90)
+
+checkserverType(com.RestAssured.Testcases.TC003_Post_Employee_Record)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx/1.16.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC003_Post_Employee_Record.checkserverType(TC003_Post_Employee_Record.java:83)
+
+checkContentType(com.RestAssured.Testcases.TC004_Put_Employee_Record)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [application/json;charset=utf-8]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC004_Put_Employee_Record.checkContentType(TC004_Put_Employee_Record.java:73)
+
+checkResposeBody(com.RestAssured.Testcases.TC004_Put_Employee_Record)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at com.RestAssured.Testcases.TC004_Put_Employee_Record.checkResposeBody(TC004_Put_Employee_Record.java:49)
+
+checkcontentEncoding(com.RestAssured.Testcases.TC004_Put_Employee_Record)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [gzip] but found [null]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:130)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC004_Put_Employee_Record.checkcontentEncoding(TC004_Put_Employee_Record.java:87)
+
+checkserverType(com.RestAssured.Testcases.TC004_Put_Employee_Record)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx/1.16.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC004_Put_Employee_Record.checkserverType(TC004_Put_Employee_Record.java:80)
+
+checkContentType(com.RestAssured.Testcases.TC005_Delete_Employee_Record)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [application/json;charset=utf-8]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC005_Delete_Employee_Record.checkContentType(TC005_Delete_Employee_Record.java:62)
+
+checkResposeBody(com.RestAssured.Testcases.TC005_Delete_Employee_Record)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at com.RestAssured.Testcases.TC005_Delete_Employee_Record.checkResposeBody(TC005_Delete_Employee_Record.java:39)
+
+checkcontentEncoding(com.RestAssured.Testcases.TC005_Delete_Employee_Record)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [gzip] but found [null]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:130)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC005_Delete_Employee_Record.checkcontentEncoding(TC005_Delete_Employee_Record.java:76)
+
+checkserverType(com.RestAssured.Testcases.TC005_Delete_Employee_Record)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx/1.16.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC005_Delete_Employee_Record.checkserverType(TC005_Delete_Employee_Record.java:69)
+

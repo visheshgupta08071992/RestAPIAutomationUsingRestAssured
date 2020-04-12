@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="0.041" tests="34" errors="0" skipped="0" failures="16">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/vishesh.gupta/Desktop/RestAPIAutomationUsingRestAssured"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/vishesh.gupta/Desktop/RestAPIAutomationUsingRestAssured"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/4t/1brz7nks6f1fdjlwx7nk30krl85g3w/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/vishesh.gupta/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.1/libexec/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.3"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.1/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/vishesh.gupta"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="vishesh.gupta"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="java.ext.dirs" value="/Users/vishesh.gupta/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.1/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="checkContentLenght" classname="com.RestAssured.Testcases.TC001_GetAllEmployees" time="0.004"/>
+  <testcase name="checkContentType" classname="com.RestAssured.Testcases.TC001_GetAllEmployees" time="0"/>
+  <testcase name="checkCookies" classname="com.RestAssured.Testcases.TC001_GetAllEmployees" time="0.001"/>
+  <testcase name="checkResponseTime" classname="com.RestAssured.Testcases.TC001_GetAllEmployees" time="0"/>
+  <testcase name="checkResposeBody" classname="com.RestAssured.Testcases.TC001_GetAllEmployees" time="0.025"/>
+  <testcase name="checkStatusCode" classname="com.RestAssured.Testcases.TC001_GetAllEmployees" time="0"/>
+  <testcase name="checkcontentEncoding" classname="com.RestAssured.Testcases.TC001_GetAllEmployees" time="0"/>
+  <testcase name="checkserverType" classname="com.RestAssured.Testcases.TC001_GetAllEmployees" time="0"/>
+  <testcase name="checkstatusLine" classname="com.RestAssured.Testcases.TC001_GetAllEmployees" time="0"/>
+  <testcase name="checkContentLenght" classname="com.RestAssured.Testcases.TC002_Get_Single_Employee_Record" time="0"/>
+  <testcase name="checkContentType" classname="com.RestAssured.Testcases.TC002_Get_Single_Employee_Record" time="0.004">
+    <failure message="expected [text/html; charset=UTF-8] but found [application/json;charset=utf-8]" type="java.lang.AssertionError">java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [application/json;charset=utf-8]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC002_Get_Single_Employee_Record.checkContentType(TC002_Get_Single_Employee_Record.java:59)
+</failure>
+  </testcase>
+  <testcase name="checkResponseTime" classname="com.RestAssured.Testcases.TC002_Get_Single_Employee_Record" time="0"/>
+  <testcase name="checkResposeBody" classname="com.RestAssured.Testcases.TC002_Get_Single_Employee_Record" time="0.001">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at com.RestAssured.Testcases.TC002_Get_Single_Employee_Record.checkResposeBody(TC002_Get_Single_Employee_Record.java:29)
+</failure>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.RestAssured.Testcases.TC002_Get_Single_Employee_Record" time="0">
+    <failure message="expected [200] but found [400]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [400]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at com.RestAssured.Testcases.TC002_Get_Single_Employee_Record.checkStatusCode(TC002_Get_Single_Employee_Record.java:36)
+</failure>
+  </testcase>
+  <testcase name="checkserverType" classname="com.RestAssured.Testcases.TC002_Get_Single_Employee_Record" time="0.001">
+    <failure message="expected [nginx/1.14.1] but found [nginx/1.16.0]" type="java.lang.AssertionError">java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx/1.16.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC002_Get_Single_Employee_Record.checkserverType(TC002_Get_Single_Employee_Record.java:66)
+</failure>
+  </testcase>
+  <testcase name="checkstatusLine" classname="com.RestAssured.Testcases.TC002_Get_Single_Employee_Record" time="0.001">
+    <failure message="expected [HTTP/1.1 200 OK] but found [HTTP/1.1 400 Bad Request]" type="java.lang.AssertionError">java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 400 Bad Request]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC002_Get_Single_Employee_Record.checkstatusLine(TC002_Get_Single_Employee_Record.java:51)
+</failure>
+  </testcase>
+  <testcase name="checkContentType" classname="com.RestAssured.Testcases.TC003_Post_Employee_Record" time="0">
+    <failure message="expected [text/html; charset=UTF-8] but found [application/json;charset=utf-8]" type="java.lang.AssertionError">java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [application/json;charset=utf-8]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC003_Post_Employee_Record.checkContentType(TC003_Post_Employee_Record.java:76)
+</failure>
+  </testcase>
+  <testcase name="checkResposeBody" classname="com.RestAssured.Testcases.TC003_Post_Employee_Record" time="0.001"/>
+  <testcase name="checkStatusCode" classname="com.RestAssured.Testcases.TC003_Post_Employee_Record" time="0"/>
+  <testcase name="checkcontentEncoding" classname="com.RestAssured.Testcases.TC003_Post_Employee_Record" time="0">
+    <failure message="expected [gzip] but found [null]" type="java.lang.AssertionError">java.lang.AssertionError: expected [gzip] but found [null]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:130)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC003_Post_Employee_Record.checkcontentEncoding(TC003_Post_Employee_Record.java:90)
+</failure>
+  </testcase>
+  <testcase name="checkserverType" classname="com.RestAssured.Testcases.TC003_Post_Employee_Record" time="0">
+    <failure message="expected [nginx/1.14.1] but found [nginx/1.16.0]" type="java.lang.AssertionError">java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx/1.16.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC003_Post_Employee_Record.checkserverType(TC003_Post_Employee_Record.java:83)
+</failure>
+  </testcase>
+  <testcase name="checkstatusLine" classname="com.RestAssured.Testcases.TC003_Post_Employee_Record" time="0"/>
+  <testcase name="checkContentType" classname="com.RestAssured.Testcases.TC004_Put_Employee_Record" time="0.001">
+    <failure message="expected [text/html; charset=UTF-8] but found [application/json;charset=utf-8]" type="java.lang.AssertionError">java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [application/json;charset=utf-8]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC004_Put_Employee_Record.checkContentType(TC004_Put_Employee_Record.java:73)
+</failure>
+  </testcase>
+  <testcase name="checkResposeBody" classname="com.RestAssured.Testcases.TC004_Put_Employee_Record" time="0.001">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at com.RestAssured.Testcases.TC004_Put_Employee_Record.checkResposeBody(TC004_Put_Employee_Record.java:49)
+</failure>
+    <system-out><![CDATA[{"status":"success","data":null}
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.RestAssured.Testcases.TC004_Put_Employee_Record" time="0"/>
+  <testcase name="checkcontentEncoding" classname="com.RestAssured.Testcases.TC004_Put_Employee_Record" time="0">
+    <failure message="expected [gzip] but found [null]" type="java.lang.AssertionError">java.lang.AssertionError: expected [gzip] but found [null]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:130)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC004_Put_Employee_Record.checkcontentEncoding(TC004_Put_Employee_Record.java:87)
+</failure>
+  </testcase>
+  <testcase name="checkserverType" classname="com.RestAssured.Testcases.TC004_Put_Employee_Record" time="0">
+    <failure message="expected [nginx/1.14.1] but found [nginx/1.16.0]" type="java.lang.AssertionError">java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx/1.16.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC004_Put_Employee_Record.checkserverType(TC004_Put_Employee_Record.java:80)
+</failure>
+  </testcase>
+  <testcase name="checkstatusLine" classname="com.RestAssured.Testcases.TC004_Put_Employee_Record" time="0"/>
+  <testcase name="checkContentType" classname="com.RestAssured.Testcases.TC005_Delete_Employee_Record" time="0">
+    <failure message="expected [text/html; charset=UTF-8] but found [application/json;charset=utf-8]" type="java.lang.AssertionError">java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [application/json;charset=utf-8]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC005_Delete_Employee_Record.checkContentType(TC005_Delete_Employee_Record.java:62)
+</failure>
+    <system-out><![CDATA[Employee Id is :1
+]]></system-out>
+  </testcase>
+  <testcase name="checkResposeBody" classname="com.RestAssured.Testcases.TC005_Delete_Employee_Record" time="0.001">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at com.RestAssured.Testcases.TC005_Delete_Employee_Record.checkResposeBody(TC005_Delete_Employee_Record.java:39)
+</failure>
+    <system-out><![CDATA[Response is :{"status":"failed","message":"Error! Not able to delete record"}
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.RestAssured.Testcases.TC005_Delete_Employee_Record" time="0"/>
+  <testcase name="checkcontentEncoding" classname="com.RestAssured.Testcases.TC005_Delete_Employee_Record" time="0">
+    <failure message="expected [gzip] but found [null]" type="java.lang.AssertionError">java.lang.AssertionError: expected [gzip] but found [null]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:130)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC005_Delete_Employee_Record.checkcontentEncoding(TC005_Delete_Employee_Record.java:76)
+</failure>
+  </testcase>
+  <testcase name="checkserverType" classname="com.RestAssured.Testcases.TC005_Delete_Employee_Record" time="0">
+    <failure message="expected [nginx/1.14.1] but found [nginx/1.16.0]" type="java.lang.AssertionError">java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx/1.16.0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.RestAssured.Testcases.TC005_Delete_Employee_Record.checkserverType(TC005_Delete_Employee_Record.java:69)
+</failure>
+  </testcase>
+  <testcase name="checkstatusLine" classname="com.RestAssured.Testcases.TC005_Delete_Employee_Record" time="0"/>
+</testsuite>

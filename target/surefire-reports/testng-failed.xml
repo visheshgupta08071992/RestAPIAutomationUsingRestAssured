@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [EmployeesRestAPISuite]">
+  <listeners>
+    <listener class-name="com.RestAssured.Utilities.Listeners"/>
+  </listeners>
+  <test thread-count="100" name="EmployeesRestAPITest">
+    <classes>
+      <class name="com.RestAssured.Testcases.TC001_GetAllEmployees"/>
+      <class name="com.RestAssured.Testcases.TC002_Get_Single_Employee_Record"/>
+      <class name="com.RestAssured.Testcases.TC003_Post_Employee_Record"/>
+      <class name="com.RestAssured.Testcases.TC004_Put_Employee_Record"/>
+      <class name="com.RestAssured.Testcases.TC005_Delete_Employee_Record"/>
+    </classes>
+  </test> <!-- EmployeesRestAPITest -->
+  <test name="EmployeesRestAPITest(failed)">
+    <classes>
+      <class name="com.RestAssured.Testcases.TC003_Post_Employee_Record">
+        <methods>
+          <include name="createEmployee"/>
+          <include name="checkContentType"/>
+          <include name="checkcontentEncoding"/>
+          <include name="checkserverType"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.RestAssured.Testcases.TC003_Post_Employee_Record -->
+      <class name="com.RestAssured.Testcases.TC004_Put_Employee_Record">
+        <methods>
+          <include name="checkResposeBody"/>
+          <include name="checkcontentEncoding"/>
+          <include name="checkserverType"/>
+          <include name="checkContentType"/>
+          <include name="updateEmployee"/>
+        </methods>
+      </class> <!-- com.RestAssured.Testcases.TC004_Put_Employee_Record -->
+      <class name="com.RestAssured.Testcases.TC002_Get_Single_Employee_Record">
+        <methods>
+          <include name="checkStatusCode"/>
+          <include name="getEmployeeData"/>
+          <include name="checkContentType"/>
+          <include name="checkResposeBody"/>
+          <include name="checkserverType"/>
+          <include name="checkstatusLine"/>
+        </methods>
+      </class> <!-- com.RestAssured.Testcases.TC002_Get_Single_Employee_Record -->
+      <class name="com.RestAssured.Testcases.TC005_Delete_Employee_Record">
+        <methods>
+          <include name="deleteEmployee"/>
+          <include name="tearDown"/>
+          <include name="checkResposeBody"/>
+          <include name="checkcontentEncoding"/>
+          <include name="checkContentType"/>
+          <include name="checkserverType"/>
+        </methods>
+      </class> <!-- com.RestAssured.Testcases.TC005_Delete_Employee_Record -->
+      <class name="com.RestAssured.Testcases.TC001_GetAllEmployees">
+        <methods>
+          <include name="getAllEmployees"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.RestAssured.Testcases.TC001_GetAllEmployees -->
+    </classes>
+  </test> <!-- EmployeesRestAPITest(failed) -->
+</suite> <!-- Failed suite [EmployeesRestAPISuite] -->
